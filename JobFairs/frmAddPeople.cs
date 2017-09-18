@@ -36,7 +36,7 @@ namespace JobFairs
       InsertPerson(p);
     }
 
-    string InsertPerson(People p)
+    int InsertPerson(People p)
     {
       //  The following line contains a connection string for a database that is on my local machine (server).
       //  Beware of storing a connection string that includes a username and password for an online server
@@ -44,7 +44,7 @@ namespace JobFairs
 
 
       string dbConnStr = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=JobFairs;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-      string retVal = "";
+      int retVal;
 
       SqlConnection sc = new SqlConnection(dbConnStr);     // Create a .Net framework SQL Server connection object
                                                            // based on the connection string.
@@ -52,9 +52,6 @@ namespace JobFairs
       sc.Open();                                          // Establish an opened connection to the DB.
 
       SqlCommand cmd = new SqlCommand();                  // A SqlCommand can have a variety of property values
-                                                          // but at a minimum nees a command object and
-                                                          // a connection object.
-      int ID;
 
       cmd.CommandText =
         "INSERT INTO People" +
@@ -80,14 +77,10 @@ namespace JobFairs
       // for a complete list.
       cmd.CommandType = CommandType.Text;
       cmd.Connection = sc;
-      cmd.ExecuteNonQuery();
+      retVal = cmd.ExecuteNonQuery();
       sc.Close();                                       // Don't forget to close the connection object when finished 
       return retVal;
     }
 
-    private void Cancel_Click(object sender, EventArgs e)
-    {
-
-    }
   }
 }

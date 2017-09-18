@@ -260,7 +260,6 @@
       this.Cancel.TabIndex = 12;
       this.Cancel.Text = "Exit";
       this.Cancel.UseVisualStyleBackColor = true;
-      this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
       // 
       // frmAddPeople
       // 
