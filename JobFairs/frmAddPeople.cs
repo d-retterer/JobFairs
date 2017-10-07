@@ -89,12 +89,12 @@ namespace JobFairs
       retVal = cmd.ExecuteNonQuery().ToString();
 
 
-      // set return value to the last generated identity value
+      // save the last generated identity value in newPersonID
       cmd.CommandText = "SELECT @@IDENTITY;";
-      retVal = cmd.ExecuteScalar().ToString();
+      string newPersonID = cmd.ExecuteScalar().ToString();
 
-      MessageBox.Show("Identity is : " + retVal.ToString());
-      sc.Close();                                       // Don't forget to close the connection object when finished 
+      MessageBox.Show("Identity is : " + newPersonID.ToString());
+      sc.Close();
       return retVal;
     }
 
