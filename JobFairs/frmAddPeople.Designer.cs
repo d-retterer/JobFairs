@@ -170,6 +170,7 @@
       this.m_tbFirstName.Name = "m_tbFirstName";
       this.m_tbFirstName.Size = new System.Drawing.Size(100, 20);
       this.m_tbFirstName.TabIndex = 0;
+      this.m_tbFirstName.Text = "A";
       // 
       // m_tbLastName
       // 
@@ -177,6 +178,7 @@
       this.m_tbLastName.Name = "m_tbLastName";
       this.m_tbLastName.Size = new System.Drawing.Size(100, 20);
       this.m_tbLastName.TabIndex = 2;
+      this.m_tbLastName.Text = "Normal";
       // 
       // m_tbMI
       // 
@@ -184,6 +186,7 @@
       this.m_tbMI.Name = "m_tbMI";
       this.m_tbMI.Size = new System.Drawing.Size(100, 20);
       this.m_tbMI.TabIndex = 1;
+      this.m_tbMI.Text = "B";
       // 
       // m_tbTitle
       // 
@@ -191,6 +194,7 @@
       this.m_tbTitle.Name = "m_tbTitle";
       this.m_tbTitle.Size = new System.Drawing.Size(100, 20);
       this.m_tbTitle.TabIndex = 3;
+      this.m_tbTitle.Text = "Mr";
       // 
       // m_tbAddress1
       // 
@@ -198,6 +202,7 @@
       this.m_tbAddress1.Name = "m_tbAddress1";
       this.m_tbAddress1.Size = new System.Drawing.Size(100, 20);
       this.m_tbAddress1.TabIndex = 4;
+      this.m_tbAddress1.Text = "123 Some Street";
       // 
       // m_tbAddress2
       // 
@@ -205,6 +210,7 @@
       this.m_tbAddress2.Name = "m_tbAddress2";
       this.m_tbAddress2.Size = new System.Drawing.Size(100, 20);
       this.m_tbAddress2.TabIndex = 5;
+      this.m_tbAddress2.Text = "Address 2";
       // 
       // m_tbCity
       // 
@@ -212,6 +218,7 @@
       this.m_tbCity.Name = "m_tbCity";
       this.m_tbCity.Size = new System.Drawing.Size(100, 20);
       this.m_tbCity.TabIndex = 6;
+      this.m_tbCity.Text = "Ada";
       // 
       // m_tbState
       // 
@@ -219,6 +226,7 @@
       this.m_tbState.Name = "m_tbState";
       this.m_tbState.Size = new System.Drawing.Size(100, 20);
       this.m_tbState.TabIndex = 7;
+      this.m_tbState.Text = "OH";
       // 
       // m_tbZip
       // 
@@ -226,6 +234,7 @@
       this.m_tbZip.Name = "m_tbZip";
       this.m_tbZip.Size = new System.Drawing.Size(100, 20);
       this.m_tbZip.TabIndex = 8;
+      this.m_tbZip.Text = "45810";
       // 
       // m_tbEMail
       // 
@@ -233,6 +242,7 @@
       this.m_tbEMail.Name = "m_tbEMail";
       this.m_tbEMail.Size = new System.Drawing.Size(100, 20);
       this.m_tbEMail.TabIndex = 9;
+      this.m_tbEMail.Text = "a-b-normal@fr.com";
       // 
       // m_tbPhone
       // 
@@ -240,6 +250,7 @@
       this.m_tbPhone.Name = "m_tbPhone";
       this.m_tbPhone.Size = new System.Drawing.Size(100, 20);
       this.m_tbPhone.TabIndex = 10;
+      this.m_tbPhone.Text = "419.223.2345";
       // 
       // m_btnAddPerson
       // 

@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeleteMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteMe.Designer.cs">
+      <DependentUpon>DeleteMe.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAddPeople.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="People.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DeleteMe.resx">
+      <DependentUpon>DeleteMe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAddPeople.resx">
       <DependentUpon>frmAddPeople.cs</DependentUpon>
     </EmbeddedResource>

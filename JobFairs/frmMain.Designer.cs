@@ -57,23 +57,25 @@
       // 
       // m_gbAddData
       // 
+      this.m_gbAddData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
       this.m_gbAddData.Controls.Add(this.m_btnAddPeople);
       this.m_gbAddData.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.m_gbAddData.Location = new System.Drawing.Point(20, 91);
       this.m_gbAddData.Name = "m_gbAddData";
-      this.m_gbAddData.Size = new System.Drawing.Size(161, 275);
+      this.m_gbAddData.Size = new System.Drawing.Size(161, 389);
       this.m_gbAddData.TabIndex = 4;
       this.m_gbAddData.TabStop = false;
       this.m_gbAddData.Text = "Add Data";
       // 
-      // Form1
+      // frmMain
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(766, 483);
+      this.ClientSize = new System.Drawing.Size(681, 517);
       this.Controls.Add(this.m_gbAddData);
       this.Controls.Add(this.label1);
-      this.Name = "Form1";
+      this.Name = "frmMain";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "Dave\'s Amazing Job Fair Manager";
       this.m_gbAddData.ResumeLayout(false);

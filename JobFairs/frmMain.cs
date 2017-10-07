@@ -19,7 +19,7 @@ namespace JobFairs
 
     private void m_btnAddPeople_Click(object sender, EventArgs e)
     {
-      frmAddPeople fAP = new frmAddPeople();
+      frmAddPeople fAP = new frmAddPeople(); 
       if (fAP.ShowDialog() != DialogResult.Cancel)
       {
         // do this stuff if the form is closed -- except for cancel.
